@@ -145,10 +145,10 @@ Hadoop的命令行提供了一套完整命令接口，就像Linux命令一样方
 执行上述程序可以在[http://$master\_ip:50070](http://localhost:50070/)
 查看文件的创建等是否正确
 
+---
+
 参考:
 
-[http://www.cnblogs.com/forfuture1978/archive/2010/03/14/1685351.html](http://www.cnblogs.com/forfuture1978/archive/2010/03/14/1685351.html)
-
-[http://www.cnblogs.com/xia520pi/archive/2012/05/28/2520813.html](http://www.cnblogs.com/xia520pi/archive/2012/05/28/2520813.html)
-
-[http://blog.fens.me/hadoop-hdfs-api/](http://blog.fens.me/hadoop-hdfs-api/)
+- [http://www.cnblogs.com/forfuture1978/archive/2010/03/14/1685351.html](http://www.cnblogs.com/forfuture1978/archive/2010/03/14/1685351.html)
+- [http://www.cnblogs.com/xia520pi/archive/2012/05/28/2520813.html](http://www.cnblogs.com/xia520pi/archive/2012/05/28/2520813.html)
+- [http://blog.fens.me/hadoop-hdfs-api/](http://blog.fens.me/hadoop-hdfs-api/)

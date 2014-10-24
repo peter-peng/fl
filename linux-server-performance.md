@@ -2,11 +2,11 @@ Title: Linux服务器性能评估(转)
 Date: 2014-02-11 10:23
 Author: neoyin
 Category: 技术流
-Tags: command, linux
+Tags: linux
 Slug: linux-server-performance
 
-</p>
-一、影响Linux服务器性能的因素
+
+### 一、影响Linux服务器性能的因素
 
 1.操作系统级
 
@@ -14,20 +14,19 @@ Slug: linux-server-performance
 
 2.程序应用级
 
-二、系统性能评估标准
+### 二、系统性能评估标准
 
 影响性能因素
 
-||影响性能因素|| 好|| 坏 ||糟糕 ||
+| 影响性能因素 | 好 | 坏 | 糟糕 |
+| --- | --- | --- | --- |
+|CPU| user% + sys%< 70%| user% + sys%= 85% |user% + sys% >=90% |
+| 内存 | Swap In（si）＝0 Swap Out（so）＝0 |  Per CPU with 10 page/s | More Swap In & Swap Out |
+| 磁盘 |iowait % < 20% |iowait % =35% |iowait % >= 50%|
 
-||CPU|| user% + sys%< 70%|| user% + sys%= 85% ||user% + sys% \>=90%||
 
-|| 内存|| Swap In（si）＝0 Swap Out（so）＝0||Per CPU with 10 page/s|| More
-Swap In & Swap Out ||
-
-||磁盘 ||iowait % < 20% ||iowait % =35% ||iowait % \>= 50%||
-
--   %user：表示CPU处在用户模式下的时间百分比。
+ 
+ %user：表示CPU处在用户模式下的时间百分比。
 -   %sys：表示CPU处在系统模式下的时间百分比。
 -   %iowait：表示CPU等待输入输出完成时间的百分比。
 -   swap in：即si，表示虚拟内存的页导入，即从SWAP DISK交换到RAM
@@ -35,7 +34,7 @@ Swap In & Swap Out ||
 
 <!--more-->
 
-三、系统性能分析工具
+###  三、系统性能分析工具
 
 1.常用系统命令 Vmstat、sar、iostat、netstat、free、ps、top等
 
@@ -129,7 +128,7 @@ free是监控linux内存使用状况最常用的指令，看下面的一个输�
 
 （2）利用vmstat命令监控内存
 
-<p>
+
     [root@node1 ~]# vmstat 2 3
     procs ———–memory———- —swap– —–io—- –system– —–cpu——
     r b swpd free buff cache si so bi bo in cs us sy id wa st

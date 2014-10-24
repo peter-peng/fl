@@ -2,6 +2,7 @@ Title: 记一个SB的tomcat报错
 Date: 2013-11-06 19:01
 Author: chengz
 Category: 技术流
+Tags: tomcat
 Slug: tomcat-start-error
 
 ### tomcat 启动时报错

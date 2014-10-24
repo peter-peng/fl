@@ -2,10 +2,10 @@ Title: 安装Nodejs 和 npm
 Date: 2013-12-27 17:41
 Author: chengz
 Category: 技术流
-Tags: node, npm
+Tags: nodejs
 Slug: nodejs-npm-install
 
-</p>
+
 这里 http://www.joyent.com/blog/installing-node-and-npm/ 和这里
 https://gist.github.com/isaacs/579814 主要就是这里
 

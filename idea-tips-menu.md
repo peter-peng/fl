@@ -1,6 +1,7 @@
 Title: IDEA-tips 菜单描述
 Date: 2013-12-17 14:54
 Author: chengz
+Tags: idea
 Category: 每日一译
 Slug: idea-tips-menu
 

@@ -2,7 +2,7 @@ Title: Ubuntu中快速搭建VPN服务器
 Date: 2013-07-20 13:42
 Author: neoyin
 Category: 技术流
-Tags: PPTP, VPN, 翻墙
+Tags: vpn,ubuntu
 Slug: ubuntu-vpn
 
 点对点隧道协议（PPTP）是VPN服务的一种最简单的实现协议，其它常见的VPN类型还有：使用IPsec的第2层隧道协议（L2TP/IPsec）、安全套接字隧道协议（SSL

@@ -2,7 +2,7 @@ Title: 打造分布式文件系统--Hadoop配置安装
 Date: 2013-10-23 14:46
 Author: neoyin
 Category: 技术流
-Tags: hadoop, hdfs
+Tags: hadoop
 Slug: hadoop-install
 
 </p>
@@ -152,7 +152,10 @@ Map/Reduce 机群（带有 jobtracker 和一个单独的 tasktracker） .
 2.  Master和Slave机器上的`/etc/hosts`中必须把集群中机器都配置上去，就算在配置文件中使用的是IP也需如此,不然一直会出现
     datanode denied communication with namenode 相关错误. 参考资料:
 
-[http://hadoop.apache.org/docs/r2.2.0/](http://hadoop.apache.org/docs/r2.2.0/)
-[http://dongxicheng.org/mapreduce-nextgen/hadoop-2-2-0/](http://dongxicheng.org/mapreduce-nextgen/hadoop-2-2-0/)
-[http://www.yongbok.net/blog/how-to-install-hadoop-2-2-0-pseudo-distributed-mode/](http://www.yongbok.net/blog/how-to-install-hadoop-2-2-0-pseudo-distributed-mode/)
-[http://www.cnblogs.com/xia520pi/category/346943.html](http://www.cnblogs.com/xia520pi/category/346943.html)
+---
+参考：
+
+- [http://hadoop.apache.org/docs/r2.2.0/](http://hadoop.apache.org/docs/r2.2.0/)
+- [http://dongxicheng.org/mapreduce-nextgen/hadoop-2-2-0/](http://dongxicheng.org/mapreduce-nextgen/hadoop-2-2-0/)
+- [http://www.yongbok.net/blog/how-to-install-hadoop-2-2-0-pseudo-distributed-mode/](http://www.yongbok.net/blog/how-to-install-hadoop-2-2-0-pseudo-distributed-mode/)
+- [http://www.cnblogs.com/xia520pi/category/346943.html](http://www.cnblogs.com/xia520pi/category/346943.html)

@@ -2,33 +2,17 @@ Title: 【What if 系列】不安分的冰球
 Date: 2013-05-06 12:55
 Author: neoyin
 Category: 【What if系列】
-Tags: what if, 冰球
+Tags: what-if
 Slug: what-if-hockey-puck
 
-<div style="display: none;">
-[mbt store online](http://jdli.org/app.php?p=mbt-store-online)
+### 提问：
 
-</div>
-<div style="display: none;">
-[kate spade cheap online](http://www.socialfabric.us/wp-pdf.php)
+> 如果你想击出一颗冰球并指望它把对面守门员一起撞进球网里，那么你得花多少力气？   —— Tom  
 
-</div>
-</p>
-提问：
+### 回答：
 
-\>
-如果你想击出一颗冰球并指望它把对面守门员一起撞进球网里，那么你得花多少力气？  
-\>
-
-\> —— Tom  
-\>
-
-回答：
-
-<div align="right">
 > 骚年你想太多了，这不太可能会发生。
 
-</div>
 这不仅仅是你以多大的力气去击球的问题，我的这篇博文里
 
 [讨论的就是没有速度限制的情况](http://what-if.xkcd.com/1/)。一个地球人用一根棍子没法击出时速[远大于约50米/秒](http://sports.yahoo.com/blogs/nhl-puck-daddy/khl-alexander-ryazantsev-sets-world-record-hardest-shot-174131642.html)的球，所以我们得假设冰球是被一个[冰球机器人](http://hockeyrobotics.com/)，或者一个[电动滑板](http://www.psfc.mit.edu/~radovinsky/papers/32.pdf)，再或者是一个[超音速瓦斯炮](http://www.nasa.gov/centers/wstf/laboratories/hypervelocity/gasguns.html)发射出来的。
@@ -51,6 +35,8 @@ Slug: what-if-hockey-puck
 （进球了？）
 
 这有助于你想象那个冰球砸中对面守门员后会发生什么……
+
+---
 
 -   原文来源：[what-if.xkcd.com](http://what-if.xkcd.com/39/)
 -   原文标题：[Hockey

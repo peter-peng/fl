@@ -2,6 +2,7 @@ Title: IDEA tips
 Date: 2013-11-22 08:53
 Author: chengz
 Category: 每日一译
+Tags: idea
 Slug: idea-tips
 
 20131122  

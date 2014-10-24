@@ -2,14 +2,13 @@ Title: 拜占庭将军问题
 Date: 2014-02-24 16:24
 Author: neoyin
 Category: 技术流
-Tags: 分布式
+Tags: thread
 Slug: byzantine-failures
 
 我们上次遇到过
 [哲学家就餐问题](http://www.floatinglife.cn/%E7%94%A8%E5%A4%9A%E7%BA%BF%E7%A8%8B%E8%A7%A3%E5%86%B3%E5%93%B2%E5%AD%A6%E5%AE%B6%E5%B0%B1%E9%A4%90%E9%97%AE%E9%A2%98)讲的是多线程相关的知识，这次我们又遇到了拜占庭将军问题,让我们来仔细看一看
 
-> 拜占庭将军问题（Byzantine
-> failures）又称两军问题，是由莱斯利·兰伯特提出的点对点通信中的基本问题。含义是在存在消息丢失的不可靠信道上试图通过消息传递的方式达到一致性是不可能的。因此对一致性的研究一般假设信道是可靠的，或不存在本问题。
+> 拜占庭将军问题（Byzantine failures）又称两军问题，是由莱斯利·兰伯特提出的点对点通信中的基本问题。含义是在存在消息丢失的不可靠信道上试图通过消息传递的方式达到一致性是不可能的。因此对一致性的研究一般假设信道是可靠的，或不存在本问题。
 
 起源
 ----
@@ -28,6 +27,5 @@ Slug: byzantine-failures
 
 具体可以查看相关wiki.
 
-### [百度百科](http://baike.baidu.com/link?url=kPpcEWGlCRnTYqbrSdIGQOJ2g2zj8rxdhOGRpex9XVL_LoRka5GMVaMhDuKvLUr-u_nDztQThKNoDBPZY08nXa)
-
-### [wikipedia](http://zh.wikipedia.org/zh-cn/%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%B0%86%E5%86%9B%E9%97%AE%E9%A2%98)
+- [百度百科](http://baike.baidu.com/link?url=kPpcEWGlCRnTYqbrSdIGQOJ2g2zj8rxdhOGRpex9XVL_LoRka5GMVaMhDuKvLUr-u_nDztQThKNoDBPZY08nXa)
+- [wikipedia](http://zh.wikipedia.org/zh-cn/%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%B0%86%E5%86%9B%E9%97%AE%E9%A2%98)

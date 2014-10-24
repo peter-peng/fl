@@ -2,8 +2,8 @@ Title: 【What if 系列】湖水茶
 Date: 2014-01-17 10:29
 Author: neoyin
 Category: 【What if系列】
-Tags: tea, what
-Slug: lake-tea
+Tags: what-if
+Slug: what-if-lake-tea
 
 **提问**：
 

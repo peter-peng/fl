@@ -2,7 +2,7 @@ Title: 用多线程解决哲学家就餐问题
 Date: 2013-07-26 14:49
 Author: neoyin
 Category: 技术流
-Tags: thread, 多线程
+Tags: thread
 Slug: dining-philosophers-problem
 
 **哲学家就餐问题**（英语：Dining philosophers

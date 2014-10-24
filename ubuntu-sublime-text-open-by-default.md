@@ -2,7 +2,7 @@ Title: Ubuntu下Sublime Text 2默认打开文本
 Date: 2013-04-26 11:40
 Author: neoyin
 Category: 技术流
-Tags: Sublime, ubuntu
+Tags: sublime, ubuntu
 Slug: ubuntu-sublime-text-open-by-default
 
 
@@ -33,6 +33,8 @@ with other Application 也找不到它。所以需要进行一些配置 先 cd �
 
     text/plain=sublime.desktop;gedit.desktop;
     退出保存
+
+---
 
 参考：
 

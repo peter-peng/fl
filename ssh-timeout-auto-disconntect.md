@@ -2,6 +2,7 @@ Title: 避免ssh超时自动断开连接
 Date: 2014-07-17 17:45
 Author: chengz
 Category: 每天进步一点点
+Tags: linux
 Slug: ssh-timeout-auto-disconntect
 
 当用SSH Secure Shell连接Linux时，如果几分钟没有任何操作，连接就会断开。

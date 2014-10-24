@@ -2,7 +2,7 @@ Title: 缓存的重要性（Linux下安装Memcache）
 Date: 2013-06-21 16:05
 Author: neoyin
 Category: 技术流
-Tags: memcache
+Tags: linux,memcache
 Slug: memcache-linux-install
 
 Cache就是高速缓冲存储器
@@ -16,13 +16,13 @@ Cache就是高速缓冲存储器
 
 Linux下 需要先安装 libevent
 
-<div>
+```
 You'll likely need to install the development package for libevent
 
 -   **Ubuntu:** `apt-get install libevent-dev`
 -   **Redhat/Fedora:** `yum install libevent-devel`
+```
 
-</div>
 根据文档 https://code.google.com/p/memcached/wiki/NewInstallFromSource
 
     wget http://memcached.org/latest
@@ -32,8 +32,7 @@ You'll likely need to install the development package for libevent
     make && make install
 
 启动Memcache的服务器端：  
-\# /usr/local/bin/memcached -d -m 10 -u root -l 192.168.0.200 -p 12000
--c 256 -P /tmp/memcached.pid
+`/usr/local/bin/memcached -d -m 10 -u root -l 192.168.0.200 -p 12000 -c 256 -P /tmp/memcached.pid`
 
 -d选项是启动一个守护进程，  
 -m是分配给Memcache使用的内存数量，单位是MB，我这里是10MB，  
@@ -46,6 +45,8 @@ You'll likely need to install the development package for libevent
 -P是设置保存Memcache的pid文件
 
 OK Done! So easy
+
+---
 
 https://code.google.com/p/memcached/wiki/NewInstallFromSource
 

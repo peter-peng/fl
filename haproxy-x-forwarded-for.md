@@ -2,14 +2,10 @@ Title: X-Forwarded-For引发的悬案
 Date: 2014-03-27 16:01
 Author: neoyin
 Category: 技术流
-Tags: haproxy, nginx, X-Forwarded-For
+Tags: nginx
 Slug: haproxy-x-forwarded-for
 
-<div style="display: none;">
-[zapatillas asics](http://www.strongerbritney.com.ar/asics.php)
 
-</div>
-</p>
 最近线上nginx服务压力过大，运维的小伙伴们扩充了相关的服务器，在nginx服务器上层又加了一层haproxy服务器
 现在的线上的结构变成
 

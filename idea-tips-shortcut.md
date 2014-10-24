@@ -2,6 +2,7 @@ Title: IDEA-TIPS 合并行
 Date: 2013-12-05 19:38
 Author: chengz
 Category: 每日一译
+Tags: idea
 Slug: idea-tips-shortcut
 
 <span style="color: #ff0000;">Ctrl+Shift+J</span> shortcut joins two

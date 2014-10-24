@@ -2,6 +2,7 @@ Title: Intellij Idea tips--智能类型补全
 Date: 2013-11-23 13:49
 Author: chengz
 Category: 每日一译
+Tags: idea
 Slug: idea-tips-smart-comletion
 
 The SmartType code completion may be used after the new keyword, to

@@ -2,6 +2,7 @@ Title: solr Multicore实现单服务器索引分片搜索
 Date: 2013-12-10 20:57
 Author: suhong
 Category: 技术流
+Tags: solr
 Slug: solr-multicore-single-machine-index-search
 
 今天先记录下solr的Multicore实现多个分片索引的查询，之后再记录solr的分布式，使用solr版本1.4。  

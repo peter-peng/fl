@@ -2,7 +2,7 @@ Title: 【What if 系列】危险的高压锅
 Date: 2013-05-06 08:59
 Author: neoyin
 Category: 【What if系列】
-Tags: what if, 高压锅
+Tags: what-if
 Slug: what-if-pressure-cooker
 提问：
 -----

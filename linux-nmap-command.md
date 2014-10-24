@@ -5,8 +5,8 @@ Category: 技术流
 Tags: linux, nmap
 Slug: linux-nmap-command
 
-</p>
-\> The **Nmap** aka Network Mapper is an open source and a very
+
+> The **Nmap** aka Network Mapper is an open source and a very
 versatile tool for Linux system/network administrators. Nmap is used for
 exploring networks, perform security scans, network audit and finding
 open ports on remote machine. It scans for Live hosts, Operating
@@ -31,8 +31,7 @@ systems, packet filters and open ports running on remote hosts.
 
 <!--more-->
 
-How to Install NMAP in Linux
-----------------------------
+### How to Install NMAP in Linux
 
 > Most of the today’s Linux distributions like Red Hat, CentOS, Fedoro,
 > Debian and Ubuntu have included Nmap in their default package
@@ -41,8 +40,7 @@ How to Install NMAP in Linux
 > distribution specific use the following command.
 
 目前大部分Linux发行版像**Red
-Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管理安装库(**Yum**
-/ **APT**)中自带了**Nmap** 在各发行版上安装**Nmap**用如下命令:
+Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管理安装库(**Yum** **APT**)中自带了**Nmap** 在各发行版上安装**Nmap**用如下命令:
 
     # yum install nmap      [on Red Hat based systems]
     $ sudo apt-get install nmap [on Debian based systems]
@@ -52,8 +50,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
 
 一旦你安装了最新的Nmap程序,你将可以跟随下面的例子进行操作。
 
-1. Scan a System with Hostname and IP Address
----------------------------------------------
+### 1. Scan a System with Hostname and IP Address
 
 > The Nmap tool offers various methods to scan a system. In this
 > example, I am performing a scan using hostname as server2.tecmint.com
@@ -100,8 +97,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
     Nmap finished: 1 IP address (1 host up) scanned in 0.465 seconds
     You have new mail in /var/spool/mail/root
 
-2. Scan using “-v” option
--------------------------
+### 2. Scan using “-v” option
 
 > You can see that the below command with “-v” option is giving more
 > detailed information about the remote machine.
@@ -136,8 +132,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
     Nmap finished: 1 IP address (1 host up) scanned in 0.485 seconds
                    Raw packets sent: 1681 (73.962KB) | Rcvd: 1681 (77.322KB)
 
-3.Scan Multiple Hosts 扫描多台机器
-----------------------------------
+### 3.Scan Multiple Hosts 扫描多台机器
 
 > You can scan multiple hosts by simply writing their IP addresses or
 > hostnames with Nmap.
@@ -159,8 +154,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
     MAC Address: 08:00:27:D9:8E:D7 (Cadmus Computer Systems)
     Nmap finished: 3 IP addresses (1 host up) scanned in 0.580 seconds
 
-4. Scan a whole Subnet 扫描整个子网
------------------------------------
+### 4. Scan a whole Subnet 扫描整个子网
 
 > You can scan a whole subnet or IP range with Nmap by providing \*
 > wildcard with it.
@@ -196,8 +190,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
 
 通过上面的输出可以看出Nmap扫描了整个子网并给出来当前网中在线主机的信息。
 
-5. Scan Multiple Servers using last octet of IP address 利用最后一位字节扫描多服务器
-------------------------------------------------------------------------------------
+### 5. Scan Multiple Servers using last octet of IP address 利用最后一位字节扫描多服务器
 
 > You can perform scans on multiple IP address by simple specifying last
 > octet of IP address. For example, here I performing a scan on IP
@@ -222,8 +215,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
     Nmap finished: 3 IP addresses (1 host up) scanned in 0.552 seconds
     You have new mail in /var/spool/mail/root
 
-6. Scan list of Hosts from a File 从文件中扫描
-----------------------------------------------
+### 6. Scan list of Hosts from a File 从文件中扫描
 
 > If you have more hosts to scan and all host details are written in a
 > file , you can directly ask nmap to read that file and perform scans.
@@ -279,8 +271,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
 
     Nmap finished: 3 IP addresses (3 hosts up) scanned in 2.047 seconds
 
-7. Scan an IP Address Range 扫描IP地址范围
-------------------------------------------
+### 7. Scan an IP Address Range 扫描IP地址范围
 
 > You can specify an IP range while performing scan with Nmap.
 > 你可以用Nmap指定扫描IP范围
@@ -301,8 +292,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
 
     Nmap finished: 10 IP addresses (1 host up) scanned in 0.542 seconds
 
-8. Scan Network Excluding Remote Hosts 排除主机后扫描
------------------------------------------------------
+### 8. Scan Network Excluding Remote Hosts 排除主机后扫描
 
 > You can exclude some hosts while performing a full network scan or
 > when you are scanning with wildcards with “–exclude” option.
@@ -326,8 +316,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
     Nmap finished: 255 IP addresses (1 host up) scanned in 5.313 seconds
     You have new mail in /var/spool/mail/root
 
-9. Scan OS information and Traceroute 扫描操作系统信息和路由跟踪.
------------------------------------------------------------------
+### 9. Scan OS information and Traceroute 扫描操作系统信息和路由跟踪.
 
 > With Nmap, you can detect which OS and version is running on the
 > remote host. To enable OS & version detection, script scanning and
@@ -373,8 +362,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
 
 通过上面的输出，我们可以看出Nmap显示了远程主机的TCP/IP指纹并更加仔细的显示了各端口及服务。
 
-10. Enable OS Detection with Nmap 启用操作系统检测
---------------------------------------------------
+### 10. Enable OS Detection with Nmap 启用操作系统检测
 
 > Use the option “-O” and “-osscan-guess” also helps to discover OS
 > information.
@@ -413,8 +401,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
     Nmap finished: 1 IP address (1 host up) scanned in 11.064 seconds
     You have new mail in /var/spool/mail/root
 
-11. Scan a Host to Detect Firewall 扫描主机用于探测防火墙
----------------------------------------------------------
+### 11. Scan a Host to Detect Firewall 扫描主机用于探测防火墙
 
 > The below command will perform a scan on a remote host to detect if
 > any packet filters or Firewall is used by host.
@@ -430,8 +417,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
     Nmap finished: 1 IP address (1 host up) scanned in 0.382 seconds
     You have new mail in /var/spool/mail/root
 
-12. Scan a Host to check its protected by Firewall 扫描主机检查其是否有防火墙保护
----------------------------------------------------------------------------------
+### 12. Scan a Host to check its protected by Firewall 扫描主机检查其是否有防火墙保护
 
 > To scan a host if it is protected by any packet filtering software or
 > Firewalls. 扫描主机检测其是否受到数据包过滤软件或防火墙的保护。
@@ -452,8 +438,7 @@ Hat**,**CentOS**,**Fedoro**,**Debian**和**Ubuntu**已经在其默认的包管�
 
     Nmap finished: 1 IP address (1 host up) scanned in 0.399 seconds
 
-13. Find out Live hosts in a Network 扫描网络中在线主机
--------------------------------------------------------
+### 13. Find out Live hosts in a Network 扫描网络中在线主机
 
 > With the help of “-sP” option we can simply check which hosts are live
 > and up in Network, with this option nmap skips port detection and
@@ -470,8 +455,7 @@ sP"我们可以简单的检测网络中有哪些在线主机，该选项会跳�
     MAC Address: 08:00:27:D9:8E:D7 (Cadmus Computer Systems)
     Nmap finished: 256 IP addresses (2 hosts up) scanned in 5.109 seconds
 
-14. Perform a Fast Scan 执行快速扫描
-------------------------------------
+### 14. Perform a Fast Scan 执行快速扫描
 
 > You can perform a fast scan with “-F” option to scans for the ports
 > listed in the nmap-services files and leaves all other ports.
@@ -494,8 +478,7 @@ F"选项.其会避开其它端口仅扫描nmap-services文件所列的端口
 
     Nmap finished: 1 IP address (1 host up) scanned in 0.322 seconds
 
-15. Find Nmap version
----------------------
+### 15. Find Nmap version
 
 You can find out Nmap version you are running on your machine with “-V”
 option.
@@ -505,8 +488,7 @@ option.
     Nmap version 4.11 ( http://www.insecure.org/nmap/ )
     You have new mail in /var/spool/mail/root
 
-16. Scan Ports Consecutively 顺序扫描端口
------------------------------------------
+### 16. Scan Ports Consecutively 顺序扫描端口
 
 > Use the “-r” flag to don’t randomize. 利用"- r"不随机扫描
 
@@ -526,8 +508,7 @@ option.
 
     Nmap finished: 1 IP address (1 host up) scanned in 0.363 seconds
 
-17. Print Host interfaces and Routes 打印主机接口和路由信息
------------------------------------------------------------
+### 17. Print Host interfaces and Routes 打印主机接口和路由信息
 
 > You can find out host interface and route information with nmap by
 > using “–iflist” option.
@@ -552,8 +533,7 @@ option.
 
 上面的输出，你可以看到nmap列出来你主机系统的接口及路由信息
 
-18. Scan for specific Port
---------------------------
+### 18. Scan for specific Port
 
 > There are various options to discover ports on remote machine with
 > Nmap. You can specify the port you want nmap to scan with “-p” option,
@@ -569,8 +549,7 @@ option.
 
     Nmap finished: 1 IP address (1 host up) sca
 
-19. Scan a TCP Port
--------------------
+### 19. Scan a TCP Port
 
 You can also specify specific port types and numbers with nmap to scan.
 
@@ -585,8 +564,7 @@ You can also specify specific port types and numbers with nmap to scan.
 
     Nmap finished: 1 IP address (1 host up) scanned in 0.157 seconds
 
-20. Scan a UDP Port
--------------------
+### 20. Scan a UDP Port
 
     [root@server1 ~]# nmap -sU 53 server2.tecmint.com
 
@@ -599,8 +577,7 @@ You can also specify specific port types and numbers with nmap to scan.
 
     Nmap finished: 1 IP address (1 host up) scanned in 0.157 seconds
 
-21. Scan Multiple Ports
------------------------
+### 21. Scan Multiple Ports
 
 You can also scan multiple ports using option “-p“.
 
@@ -615,15 +592,13 @@ You can also scan multiple ports using option “-p“.
 
     Nmap finished: 1 IP address (1 host up) scanned in 0.190 seconds
 
-22. Scan Ports by Network Range
--------------------------------
+### 22. Scan Ports by Network Range
 
 You can scan ports with ranges using expressions.
 
     [root@server1 ~]#  nmap -p 80-160 192.168.0.101
 
-23. Find Host Services version Numbers
---------------------------------------
+### 23. Find Host Services version Numbers
 
 We can find out service’s versions which are running on remote hosts
 with “-sV” option.
@@ -644,8 +619,7 @@ with “-sV” option.
 
     Nmap finished: 1 IP address (1 host up) scanned in 12.624 seconds
 
-24. Scan remote hosts using TCP ACK (PA) and TCP Syn (PS)
----------------------------------------------------------
+### 24. Scan remote hosts using TCP ACK (PA) and TCP Syn (PS)
 
 Sometimes packet filtering firewalls blocks standard ICMP ping requests,
 in that case, we can use TCP ACK and TCP Syn methods to scan remote
@@ -668,8 +642,7 @@ hosts.
     Nmap finished: 1 IP address (1 host up) scanned in 0.360 seconds
     You have new mail in /var/spool/mail/root
 
-25. Scan Remote host for specific ports with TCP ACK
-----------------------------------------------------
+### 25. Scan Remote host for specific ports with TCP ACK
 
     [root@server1 ~]# nmap -PA -p 22,80 192.168.0.101
 
@@ -683,8 +656,7 @@ hosts.
     Nmap finished: 1 IP address (1 host up) scanned in 0.166 seconds
     You have new mail in /var/spool/mail/root
 
-26. Scan Remote host for specific ports with TCP Syn
-----------------------------------------------------
+### 26. Scan Remote host for specific ports with TCP Syn
 
     [root@server1 ~]# nmap -PS -p 22,80 192.168.0.101
 
@@ -698,8 +670,7 @@ hosts.
     Nmap finished: 1 IP address (1 host up) scanned in 0.165 seconds
     You have new mail in /var/spool/mail/root
 
-27. Perform a stealthy Scan
----------------------------
+### 27. Perform a stealthy Scan
 
     [root@server1 ~]# nmap -sS 192.168.0.101
 
@@ -718,8 +689,7 @@ hosts.
     Nmap finished: 1 IP address (1 host up) scanned in 0.383 seconds
     You have new mail in /var/spool/mail/root
 
-28. Check most commonly used Ports with TCP Syn
------------------------------------------------
+### 28. Check most commonly used Ports with TCP Syn
 
     [root@server1 ~]# nmap -sT 192.168.0.101
 
@@ -738,8 +708,7 @@ hosts.
     Nmap finished: 1 IP address (1 host up) scanned in 0.406 seconds
     You have new mail in /var/spool/mail/root
 
-29. Perform a tcp null scan to fool a firewall
-----------------------------------------------
+### 29. Perform a tcp null scan to fool a firewall
 
     [root@server1 ~]# nmap -sN 192.168.0.101
 

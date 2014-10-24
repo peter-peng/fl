@@ -2,7 +2,7 @@ Title: 利用Sonar及Maven 插件 进行代码质量检测管理
 Date: 2013-07-20 10:11
 Author: neoyin
 Category: 技术流
-Tags: maven, sonar, 代码质量
+Tags: maven, sonar
 Slug: sonar-maven-code-quality
 
 Sonar 是一个用于代码质量管理的开放平台。通过插件机制，Sonar

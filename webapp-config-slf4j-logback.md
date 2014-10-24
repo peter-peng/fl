@@ -10,17 +10,15 @@ Slug: webapp-config-slf4j-logback
 原文 : [How to setup SLF4J and LOGBack in a web app -
 fast](https://wiki.base22.com/display/btg/How+to+setup+SLF4J+and+LOGBack+in+a+web+app+-+fast)
 
-第0步 添加依赖jar (用maven的略过此步骤)
----------------------------------------
+### 第0步 添加依赖jar (用maven的略过此步骤)
 
 -   WEB-INF  
-    \*\* lib  
-    \*\*\* logback-classic.x.x.x.jar  
-    \*\*\* logback-core.x.x.x.jar  
-    \*\*\* slf4j-api-x.x.x.jar
+    ** lib  
+    *** logback-classic.x.x.x.jar  
+    *** logback-core.x.x.x.jar  
+    *** slf4j-api-x.x.x.jar
 
-step 1 加入 maven 依赖
-----------------------
+### step 1 加入 maven 依赖
 
     <dependency>
         <groupId>ch.qos.logback</groupId>
@@ -28,23 +26,19 @@ step 1 加入 maven 依赖
         <version>1.0.13</version>
     </dependency>
 
-step 2 导入 初始的xml配置
--------------------------
+###step 2 导入 初始的xml配置
 
 下面两个链接是可以用来做起步的初始配置文件
 
 -   src  
-    \*\* main  
-    \*\*\* resources  
-    \*\*\*\*
-    [logback.xml](https://wiki.base22.com/download/attachments/35488048/logback.xml?version=1&modificationDate=1261291177000&api=v2)  
-    \*\* test  
-    \*\*\* resources  
-    \*\*\*\*
-    [logback-test.xml](https://wiki.base22.com/download/attachments/35488048/logback-test.xml?version=1&modificationDate=1261291177000&api=v2)
+    ** main  
+    *** resources  
+    **** [logback.xml](https://wiki.base22.com/download/attachments/35488048/logback.xml?version=1&modificationDate=1261291177000&api=v2)  
+    ** test  
+    *** resources  
+    **** [logback-test.xml](https://wiki.base22.com/download/attachments/35488048/logback-test.xml?version=1&modificationDate=1261291177000&api=v2)
 
-step 3 自定义 XML 配置
-----------------------
+### step 3 自定义 XML 配置
 
 上面下载的文件内容差不多是这样, logger 的名字是一个包的层级
 ("com.base22"), 你可以改成自己的包, 也可以定义更多的logger (package
@@ -66,8 +60,7 @@ step 3 自定义 XML 配置
       </root>
     </configuration>
 
-step 4 加入log代码
-------------------
+### step 4 加入log代码
 
 imports
 
@@ -86,5 +79,4 @@ log代码
     LOG.warn("I love programming.");
     LOG.error("I am programming.");
 
-step 5 运行程序看结果
----------------------
+### step 5 运行程序看结果

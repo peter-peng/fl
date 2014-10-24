@@ -2,6 +2,7 @@ Title:  正则表达式匹配3的倍数
 Date: 2014-03-01 16:06
 Author: chengz
 Category: 技术流
+Tags: regex
 Slug: regular-expression-match-multiple-of-3
 
 

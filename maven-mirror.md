@@ -2,10 +2,10 @@ Title: Maven私服中的mirror
 Date: 2014-02-07 16:26
 Author: neoyin
 Category: 技术流
-Tags: maven, mirror, repository
+Tags: maven
 Slug: maven-mirror
 
-</p>
+
 前一段时间在公司内部搭建了Maven私服，在内部开发过程中一定程度上提高了工作效率。但是最近开发过程中遇到了一个问题，现将这一问题的发生的原因和过程记录下来：
 
 最近一个同事开发过程中需要用到rabbitmq的最新版本(3.2.3)。但是本地私服还没更新这一最新版本。于是在其项目pom.xml文件中添加了一个repository
@@ -42,5 +42,7 @@ Slug: maven-mirror
     匹配仓库repo1和repo2，使用逗号分隔多个远程仓库。
 4.  `<mirrorOf>*,!repo1</miiroOf>`
     匹配所有远程仓库，repo1除外，使用感叹号将仓库从匹配中排除。
+
+---
 
 [http://m.oschina.net/blog/100634](http://m.oschina.net/blog/100634)

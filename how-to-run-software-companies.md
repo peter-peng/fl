@@ -2,10 +2,9 @@ Title: 从技术人的视角谈软件公司经营「转」
 Date: 2014-04-18 11:50
 Author: neoyin
 Category: 浮生记
-Tags: 创业
 Slug: how-to-run-software-companies
 
-<a name="index"></a>Index
+Index
 -------------------------
 
 1.  [人才的重要性](#ch1)

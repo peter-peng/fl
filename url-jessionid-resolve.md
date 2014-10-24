@@ -5,12 +5,7 @@ Category: 技术流
 Tags: jessionid, tomcat
 Slug: url-jessionid-resolve
 
-<div style="display: none;">
-[sac longchamp
-femme](http://burlsworthtrophy.com/wp-wpp.php?p=sac-longchamp-femme)
 
-</div>
-</p>
 最近在网站上加了通过[二维码](http://www.floatinglife.cn/qrcode-generate)分享微信功能,但是发现用户通过二维码分享页面的时候时不时链接中会带上jessionid=xxxxxx,这样的URL极不友好，对搜索引擎不利，而且也会带来安全隐患。
 
 jessionid是什么可以看这里[jsessionid释疑解惑](http://www.blogjava.net/zhaozhenlin1224/archive/2010/02/03/311807.html)

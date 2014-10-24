@@ -2,7 +2,6 @@ Title: 全球发展最快公司的10个共同特点
 Date: 2014-02-20 18:57
 Author: neoyin
 Category: 浮生记
-Tags: facebook, google
 Slug: world-of-fastest-growing-company
 
 纵观全球，当下发展最快的公司都是互联网公司，这些公司除了这一共同特点外，还有什么呢?有人对此作出了概括总结。

@@ -2,6 +2,7 @@ Title: IDEA-tips open maven project
 Date: 2014-01-08 18:46
 Author: chengz
 Category: 每日一译
+Tags: idea
 Slug: idea-tips-open-maven-project
 
 <div style="display: none;">

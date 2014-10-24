@@ -2,7 +2,7 @@ Title:  MySQL启多个实例进行主从复制
 Date: 2013-04-29 13:55
 Author: neoyin
 Category: 技术流
-Tags: master-slave, mysql
+Tags: mysql
 Slug: mysql-multiple-instances-master-slave
 
 最近开发过程中服务器紧缺，但又需要一些mysql

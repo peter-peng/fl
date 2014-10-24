@@ -2,10 +2,9 @@ Title: 腾讯是如何一刀刀，在15年间干死那些竞争对手的？
 Date: 2014-02-06 16:30
 Author: neoyin
 Category: 浮生记
-Tags: 腾讯
 Slug: qq-knife-15-dry-out
 
-</p>
+
 ![enter image description
 here](http://b.hiphotos.bdimg.com/album/s=550;q=90;c=xiangce,100,100/sign=1e162f7c8882b90139adc33643b6d84a/1f178a82b9014a9027e942e6ab773912b21bee92.jpg?referer=c0359887881363274cfaf6034a70&x=.jpg)
 

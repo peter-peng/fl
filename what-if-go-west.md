@@ -2,7 +2,7 @@ Title: 【What if 系列】一路向西
 Date: 2013-05-05 09:06
 Author: neoyin
 Category: 【What if系列】
-Tags: what if, 一路向西
+Tags: what-if
 Slug: what-if-go-west
 
 提问：

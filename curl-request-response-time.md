@@ -5,13 +5,13 @@ Category: 技术流
 Tags: curl
 Slug: curl-request-response-time
 
-    curl -o /dev/null  -w %{time_namelookup}::%{time_connect}::%{time_starttransfer}::%{time_total}::%{speed_download}"\n" "http://dbapi.l99.com"
-      % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+```
+curl -o /dev/null  -w %{time_namelookup}::%{time_connect}::%{time_starttransfer}::%{time_total}::%{speed_download}"\n" "http://dbapi.l99.com"
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                      Dload  Upload   Total   Spent    Left  Speed
-    104   208  104   208    0     0     41      0  0:00:05  0:00:05 --:--:--  101k
-
-    5.007::5.007::5.010::5.010::41.000
-
+104   208  104   208    0     0     41      0  0:00:05  0:00:05 --:--:--  101k
+5.007::5.007::5.010::5.010::41.000
+```
 -   -o：把curl 返回的数据写到垃圾回收站[ /dev/null]
 -   -s：去掉所有状态
 -   -w：按照之后的格式写出

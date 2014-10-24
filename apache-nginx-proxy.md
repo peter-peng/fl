@@ -2,7 +2,7 @@ Title: Apache Nginx正向和反向代理
 Date: 2013-12-16 14:12
 Author: neoyin
 Category: 技术流
-Tags: apache, nginx, proxy
+Tags: apache,nginx
 Slug: apache-nginx-proxy
 
 最近需要调试手机端与服务器端的网络通讯协议,需要对网络封包的截取和分析,所以考虑在机器上做一层代理.通过此方案来抓取分析网络包.

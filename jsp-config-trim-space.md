@@ -41,4 +41,6 @@ jsp-property-group 元素主要有八个子元素，它们分别为：
     7.< include-prelude>：设置JSP 网页的抬头，扩展名为.jspf；
     8.< include-coda>：设置JSP 网页的结尾，扩展名为.jspf。
 
+---
+
 http://www.giantgeek.com/blog/?p=348

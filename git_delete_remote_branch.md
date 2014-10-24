@@ -2,6 +2,7 @@ Title: git删除远程分支abc
 Date: 2014-06-14 10:12
 Author: chengz
 Category: 每天进步一点点
+Tags: git
 Slug: git_delete_remote_branch
 
 删除远程分支abc

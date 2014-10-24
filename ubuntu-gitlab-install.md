@@ -5,11 +5,7 @@ Category: 技术流
 Tags: git, ubuntu
 Slug: ubuntu-gitlab-install
 
-<div style="display: none;">
-[cheap ray ban](http://strike.by/cheap-ray-ban-sunglasses/)
 
-</div>
-</p>
 最近项目更新频繁,而且多个团队同时开发同一个项目,开发阶段svn管控没有做过多限制,发布时需要非常小心,需要保证其它团队提交的代码是可发布状态.看了关于github等相关的资料,在代码管理上做一些推进.所以决定自己搭建一个私服.
 **GitLab([http://gitlab.org/gitlab-ce/](http://gitlab.org/gitlab-ce/))**
 GitLab是一个利用 Ruby on Rails

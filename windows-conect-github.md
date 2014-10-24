@@ -2,6 +2,7 @@ Title: windows连接github
 Date: 2014-04-06 15:59
 Author: chengz
 Category: 技术流
+Tags: git
 Slug: windows-conect-github
 
 使用putty的ssh连接github

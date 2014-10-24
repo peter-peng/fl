@@ -1,7 +1,8 @@
 Title: solr shard查询请求时createMainQuery报错
 Date: 2013-12-24 20:35
 Author: suhong
-Category: 每天进步一点点
+Category: 技术流
+Tags: solr
 Slug: solr-shard-error-of-query-createmainquery
 
 昨天又对一个solrcore进行分片操作，结果查询请求时报错：

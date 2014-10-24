@@ -2,7 +2,7 @@ Title: maven项目继承及依赖
 Date: 2013-05-08 20:45
 Author: neoyin
 Category: 技术流
-Tags: dependency, maven
+Tags: maven
 Slug: maven-dependency-moudle
 
 最近一个简单的搜索项目利用maven 特性构建

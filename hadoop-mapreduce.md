@@ -74,16 +74,14 @@ Slug: hadoop-mapreduce
 
 分为三步:
 
-１.TokenizerMapper 类实现 Mapper 接口中的 map 方法，输入参数中的 value
+1. TokenizerMapper 类实现 Mapper 接口中的 map 方法，输入参数中的 value
 是文本文件中的一行
-
-2.IntSumReducer类实现 Reducer 接口中的 reduce 方法, 输入参数中的 key,
+2. IntSumReducer类实现 Reducer 接口中的 reduce 方法, 输入参数中的 key,
 values 是由 Map 任务输出的中间结果，values 是一个 Iterator, 遍历这个
 Iterator, 就可以得到属于同一个 key 的所有 value. 此处，key
 是一个单词，value 是词频。只需要将所有的 value
 相加，就可以得到这个单词的总的出现次数。
-
-3.配置 Job并运行
+3. 配置 Job并运行
 
 就这么简单的三步,实现了分布式统计一批文本文件中单词出现的频率的功能.
 
@@ -343,7 +341,10 @@ KeyFieldBasedPartitioner PipesPartitioner
 </tr>
 </tbody>
 </table>
+
 咱们以后再研究其内部实现及原理
+
+---
 
 参考资料:
 

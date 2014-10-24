@@ -2,6 +2,7 @@ Title: eclipse部署solr源码调试
 Date: 2013-12-02 20:48
 Author: suhong
 Category: 技术流
+Tags: Lucene,solr
 Slug: eclipse-deploy-solr-source-code
 
 项目中需要需要对solr中的一些类进行定制，于是将solr源码部署在eclipse下调试。  

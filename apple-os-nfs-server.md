@@ -2,7 +2,7 @@ Title: Apple OS X 开启NFS server
 Date: 2013-11-22 16:10
 Author: neoyin
 Category: 技术流
-Tags: macos
+Tags: apple,nfs
 Slug: apple-os-nfs-server
 
 Macbook pro系统中程序员命令操作并不太友好,本人也不想mac
@@ -38,6 +38,7 @@ Ubuntu中设置
 需要注意的，如果路径中含有空字符需要\\040 转义。  
 That is all.
 
-http://www.manpagez.com/man/5/exports/
+参考：
 
-http://www.barryodonovan.com/index.php/2012/12/12/apple-os-x-as-an-nfs-server-with-linux-clients
+- [http://www.manpagez.com/man/5/exports/](http://www.manpagez.com/man/5/exports/)
+- [http://www.barryodonovan.com/index.php/2012/12/12/apple-os-x-as-an-nfs-server-with-linux-clients](http://www.barryodonovan.com/index.php/2012/12/12/apple-os-x-as-an-nfs-server-with-linux-clients)

@@ -2,6 +2,7 @@ Title: Scp stalled 问题解析
 Date: 2013-05-09 00:13
 Author: neoyin
 Category: 技术流
+Tags: linux
 Slug: scp-stalled-error
 
 今天在做备份的时候，远程将tar.gz

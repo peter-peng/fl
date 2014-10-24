@@ -2,7 +2,7 @@ Title: 压力测试工具-Pylot
 Date: 2013-05-06 16:22
 Author: neoyin
 Category: 技术流
-Tags: Pylot, python, 压力测试
+Tags: pylot, python
 Slug: web-performance-tool-pylot
 
 Pylot（[www.pylot.org](http://www.pylot.org/)）是一款开源的用以测试Web

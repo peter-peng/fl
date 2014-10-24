@@ -2,6 +2,7 @@ Title:  mongodb 慢查询
 Date: 2014-06-27 13:29
 Author: chengz
 Category: 技术流
+Tags: mongodb
 Slug: mongodb-slow-query
 
 mongodb 慢查询

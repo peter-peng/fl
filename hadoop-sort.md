@@ -2,7 +2,7 @@ Title: 打造分布式文件系统--Java排序算法复习
 Date: 2013-11-04 16:26
 Author: neoyin
 Category: 技术流
-Tags: hadoop, sort
+Tags: hadoop
 Slug: hadoop-sort
 
 我们知道Hadoop中关键点在[HDFS](http://www.floatinglife.cn/hadoop-hdfs)
@@ -191,7 +191,9 @@ R[k]，将它与无序区的第1个记录R交换，使R[1..i]和R分别变为记
             System.out.println();
         }
 
-    }
+    }     ---
+
+---
 
 [http://www.cnblogs.com/kemaswill/archive/2012/10/05/2712080.html](http://www.cnblogs.com/kemaswill/archive/2012/10/05/2712080.html)
 

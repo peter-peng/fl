@@ -2,6 +2,7 @@ Title: Idea tips-格式化
 Date: 2013-11-29 18:27
 Author: chengz
 Category: 每日一译
+Tags: idea
 Slug: idea-tips-format
 
 Use **Code | Reformat Code** to reformat code according to your code

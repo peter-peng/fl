@@ -2,7 +2,8 @@ Title: Intellij Idea tips-修改历史
 Date: 2013-11-27 20:53
 Author: chengz
 Category: 每日一译
-Slug: intellij-idea-tips-change-history
+Tags: idea
+Slug: idea-tips-change-history
 
 Intellij Idea tips-修改历史  
 Ctrl+Shift+Backspace (Navigate | Last Edit Location) brings you back to

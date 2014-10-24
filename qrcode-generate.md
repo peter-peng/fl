@@ -2,14 +2,10 @@ Title: 论二维码的原理及生成
 Date: 2014-02-17 16:56
 Author: neoyin
 Category: 技术流
-Tags: QRcode, 二维码
+Tags: QRcode
 Slug: qrcode-generate
 
-<div style="display: none;">
-[hollister t shirt](http://www.daydayask.com/hollister-pas-cher/)
 
-</div>
-</p>
 大家肯定都用过微信中的扫一扫功能。我们先来全面了解一下二维码
 
 二维码的起源

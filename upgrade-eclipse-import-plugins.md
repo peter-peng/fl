@@ -1,7 +1,7 @@
 Title: 升级 Eclipse 4.3, 导入老版本安装的plugins
 Date: 2014-05-10 04:28
 Author: chengz
-Category: 技术流
+Category: 每天进步一点点
 Slug: upgrade-eclipse-import-plugins
 
 [原文](http://blog.ready4go.com/blog/2013/07/02/update-eclipse-4-dot-3/)

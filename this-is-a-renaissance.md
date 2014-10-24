@@ -2,7 +2,6 @@ Title: 互联网思维:这是一场文艺复兴!
 Date: 2014-02-06 16:44
 Author: neoyin
 Category: 浮生记
-Tags: 互联网
 Slug: this-is-a-renaissance
 
 如果提起“产品经理”，你脑海中的画面，还只是一个天天画图，然后做PPT，在PC或手机上捣鼓各种应用的人，那么，你真的OUT了。

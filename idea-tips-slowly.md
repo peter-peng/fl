@@ -2,6 +2,7 @@ Title: IDEA-tips 拥抱病毒 ?
 Date: 2013-12-27 17:38
 Author: chengz
 Category: 每日一译
+Tags: idea
 Slug: idea-tips-slowly
 
 

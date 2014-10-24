@@ -2,6 +2,7 @@ Title:  jmagick 常见错误和安装
 Date: 2014-07-12 02:55
 Author: chengz
 Category: 技术流
+Tags: jmagick,ubuntu
 Slug: jmagick-install-and-error
 
 jmagick 常见错误和安装
@@ -10,7 +11,7 @@ jmagick 常见错误和安装
 错误
 ----
 
-### 找不到库文件
+- 找不到库文件
 
     Exception in thread "main" java.lang.UnsatisfiedLinkError: no JMagick in java.library.path
 
@@ -19,26 +20,24 @@ jmagick 常见错误和安装
 `libJMagick-6.4.0.so`也不行. \>\_< \*因为 libJMagick.so
 是指向libJMagick-6.5.7.so的一个软链接\*
 
-### java.lang.NoClassDefFoundError: Could not initialize class magick.ImageInfo
-
-### java.lang.UnsatisfiedLinkError
-
-java.lang.UnsatisfiedLinkError: /usr/lib/libJMagick.so:
+- java.lang.NoClassDefFoundError: Could not initialize class magick.ImageInfo
+- java.lang.UnsatisfiedLinkError
+- java.lang.UnsatisfiedLinkError: /usr/lib/libJMagick.so:
 libMagickCore.so.3: cannot open shared object file: No such file or
 director;  
 ldconfig /usr/local/lib
 
-### Unable to find ImageMagick header files
+- Unable to find ImageMagick header files
 
 apt-cache search libMagick  
 sudo apt-get install libmagickcore-dev
 
-### libMagick.so.10: cannot open shared object file: No such file or directory
+- libMagick.so.10: cannot open shared object file: No such file or directory
 
 [Linux安装JMagick](http://blog.csdn.net/velsnqi/article/details/7452479)  
 http://downloads.jmagick.org/6.4.0/
 
-### magick.MagickApiException: NoDecodeDelegateForThisImageFormat
+- magick.MagickApiException: NoDecodeDelegateForThisImageFormat
 
 显示ImageMagick支持的类型
 

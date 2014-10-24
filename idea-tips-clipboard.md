@@ -2,6 +2,7 @@ Title: IDEA-tips 剪贴板
 Date: 2013-12-09 18:45
 Author: chengz
 Category: 每日一译
+Tags: idea
 Slug: idea-tips-clipboard
 
 Use the Ctrl+Shift+V shortcut to choose and insert recent clipboard

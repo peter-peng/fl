@@ -2,6 +2,7 @@ Title: ubuntu上安装openvpn
 Date: 2014-07-19 16:01
 Author: chengz
 Category: 技术流
+Tags: ubuntu,openvpn
 Slug: ubuntu-install-openvpn
 
 ubuntu上安装openvpn
@@ -34,7 +35,7 @@ through OpenVPN)
     user nobody
     group nobody
 
-<!--more-->
+<!-- more -->
 
 用easy-rsa产生密钥和证书
 ------------------------
@@ -142,10 +143,10 @@ venet0，不要搞错了，搞错了就访问不了外面的互联网。
 
 新建网络启动时加载的脚本 vim /etc/network/if-pre-up.d/iptables  
 输入下面的内容
-
-    #!/bin/bash
-    /sbin/iptables-restore < /etc/iptables.up.rules
-
+```
+#!/bin/bash
+/sbin/iptables-restore < /etc/iptables.up.rules
+```
 改变执行权限
 
     chmod a+x /etc/network/if-pre-up.d/iptables

@@ -2,7 +2,7 @@ Title: 【What if 系列】回收“旅行者”号
 Date: 2013-05-06 09:01
 Author: neoyin
 Category: 【What if系列】
-Tags: what if, 旅行者
+Tags: what-if
 Slug: what-if-voyager
 
 ### 提问：

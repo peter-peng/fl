@@ -2,7 +2,7 @@ Title: PageSpeed Insights 优化网站
 Date: 2013-11-27 23:14
 Author: neoyin
 Category: 技术流
-Tags: gzip, nginx, optimize, wordpress
+Tags: gzip, nginx
 Slug: pagespeed-insights-optimize
 
 PageSpeed Insights

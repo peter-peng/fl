@@ -2,6 +2,7 @@ Title: 配置yum的安装源
 Date: 2014-10-06 16:59
 Author: chengz
 Category: 每天进步一点点
+Tags: linux
 Slug: yum-source-config
 
 配置yum的安装源

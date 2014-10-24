@@ -2,7 +2,6 @@ Title: 国学常识200题（含答案），看你还会多少？
 Date: 2014-02-24 13:08
 Author: neoyin
 Category: 浮生记
-Tags: 国学
 Slug: gx-200-qustion
 
 ![国学常识](http://b.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=a435aa81ad51f3dec7b2b961a4d58122/fcfaaf51f3deb48fb577c395f21f3a292df5785a.jpg?referer=096d726497cad1c889acc917b838&x=.jpg)

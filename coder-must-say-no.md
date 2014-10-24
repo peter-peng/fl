@@ -1,7 +1,7 @@
 Title: 程序员要勇于说不
 Date: 2013-04-25 20:08
 Author: neoyin
-Category: 技术流
+Category: 浮生记
 Slug: coder-must-say-no
 
 <section>

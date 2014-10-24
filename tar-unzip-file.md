@@ -2,6 +2,7 @@ Title: tar 解压指定一个文件
 Date: 2014-05-28 12:06
 Author: chengz
 Category: 每天进步一点点
+Tags: linux
 Slug: tar-unzip-file
 
     # 查看压缩包内容

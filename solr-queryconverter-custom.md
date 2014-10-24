@@ -2,6 +2,7 @@ Title: solr QueryConverter的定制
 Date: 2013-12-02 20:53
 Author: suhong
 Category: 技术流
+Tags: solr
 Slug: solr-queryconverter-custom
 
 <div>

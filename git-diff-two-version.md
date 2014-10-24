@@ -2,6 +2,7 @@ Title: git 比较两个版本号的差异
 Date: 2014-06-22 09:18
 Author: chengz
 Category: 每天进步一点点
+Tags: git
 Slug: git-diff-two-version
 
 比较两个版本号的差异
