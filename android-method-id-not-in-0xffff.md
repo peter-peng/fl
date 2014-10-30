@@ -19,3 +19,4 @@ Slug: android-method-id-not-in-0xffff
 - [http://www.trinea.cn/android/proguard-use/](http://www.trinea.cn/android/proguard-use/)
 - [http://www.jianshu.com/p/0202845db617](http://www.jianshu.com/p/0202845db617)
 - [http://stackoverflow.com/questions/25928392/dex-loader-unable-to-execute-dex-method-id-not-in-0-0xffff-65536](http://stackoverflow.com/questions/25928392/dex-loader-unable-to-execute-dex-method-id-not-in-0-0xffff-65536)
+- [http://stackoverflow.com/questions/16056442/cant-build-multiple-android-dex-files-with-ant-from-external-jars](http://stackoverflow.com/questions/16056442/cant-build-multiple-android-dex-files-with-ant-from-external-jars)
